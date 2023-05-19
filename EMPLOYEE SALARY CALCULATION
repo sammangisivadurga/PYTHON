@@ -1,0 +1,37 @@
+empno=int(input('Enter employee Number'))
+empname=input('Enter Employee Name')
+empdesig=input('Enter Employee Designation')
+days=float(input("Enter No Days Present:"))
+wages=float(input("Enter wages per Day:"))
+basicsal=wages*days;
+hra=basicsal*0.15
+ta=basicsal*0.075
+da=basicsal*0.25
+insurance=basicsal*0.12  
+netsalary=basicsal+hra+da+ta-insurance
+print('EMPLOYEE NUMBER',empno)
+print('EMPLOYEE NAME',empname)
+print('EMPLOYEE DESIGNATION',empdesig)
+print(" BASIC SALARY : ",basicsal)
+print(" DEARNESS ALLOW. : ",da)
+print(" HOUSE RENT ALLOW.: ",hra)
+print(" TRAVEL ALLOW. : ",ta)
+print(" INSURENCE : ",insurance)
+print('NETSALARY',netsalary)
+  
+
+OUTPUT:
+Enter employee Number44
+Enter Employee NameSIVADURGA
+Enter Employee DesignationCOMPUTER LAB FACULTY
+Enter No Days Present:28
+Enter wages per Day:380
+EMPLOYEE NUMBER 44
+EMPLOYEE NAME SIVADURGA
+EMPLOYEE DESIGNATION COMPUTER LAB FACULTY
+ BASIC SALARY :  10640.0
+ DEARNESS ALLOW. :  2660.0
+ HOUSE RENT ALLOW.:  1596.0
+ TRAVEL ALLOW. :  798.0
+ INSURENCE :  1276.8
+NETSALARY 14417.2
