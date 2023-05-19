@@ -1,0 +1,20 @@
+a=int(input('Enter a value'))
+b=int(input('Enter b value'))
+add=a+b
+sub=a-b
+mul=a*b
+div=a/b
+print('Addition of two numbers are ',add)
+print('Subtraction of two numbers are',sub)
+print('Multiplication of two numbers are',mul)
+print('Division of two numbers are ',div)
+
+
+OUTPUT:
+Enter a value560
+Enter b value5
+Addition of two numbers are  565
+Subtraction of two numbers are 555
+Multiplication of two numbers are 2800
+Division of two numbers are  112.0
+
