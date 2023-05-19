@@ -1,0 +1,27 @@
+name=input('Enter your name')
+qualification=input('Enter qualification')
+fname=input('Enter Father name')
+mname=input('Enter Mother Name')
+fcolour=input('Enter favourite colour')
+ffood=input('Enter favourite Food')
+print('Name',name)
+print('Qualification:',qualification)
+print('Father Name:',fname)
+print('Mother Name:',mname)
+print('Favourite colour:',fcolour)
+print('Favourite food:',ffood)
+
+
+OUTPUT:
+Enter your nameSIVADURGA
+Enter qualification B.Tech(CSE)
+Enter Father nameS.V.RAMANA
+Enter Mother NameS.LAKSHMI
+Enter favourite colourPINK
+Enter favourite FoodCHOCOLATES
+Name SIVADURGA
+Qualification:  B.Tech(CSE)
+Father Name: S.V.RAMANA
+Mother Name: S.LAKSHMI
+Favourite colour: PINK
+Favourite food: CHOCOLATES
