@@ -1,0 +1,13 @@
+#ASSIGNMENT3
+p = int(input('Enter the Principle Amount: '))
+t = float(input('Enter Time Period: '))
+r = float(input('Enter Rate of Interest (%):'))
+si = (p*t*r)/100
+print("\nSimple Interest Amount: ",si)
+
+OUTPUT:
+    Enter the Principle Amount: 1000
+Enter Time Period: 10
+Enter Rate of Interest (%):2
+
+Simple Interest Amount:  200.0
