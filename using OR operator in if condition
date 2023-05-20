@@ -1,0 +1,26 @@
+#ASSIGNMENT1
+n=int(input('Enter a number'))
+if n<10:
+    print('Given number is less than 10')
+elif n<10 or n<50:
+    print('Given number is less than 50')
+elif n<50 or n<100:
+    print('Given number is less than 100')
+else:
+    print('Given number is more than 100')
+
+
+OUTPUT:
+Enter a number45
+Given number is less than 50
+
+
+Enter a number8
+Given number is less than 10
+
+Enter a number99
+Given number is less than 100
+
+
+Enter a number150
+Given number is more than 100
