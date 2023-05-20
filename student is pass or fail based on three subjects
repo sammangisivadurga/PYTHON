@@ -1,0 +1,23 @@
+#ASSIGNMENT2
+print('Enter marks obtained in 3 subjects')
+s1=int(input('Enter s1 marks'))
+s2=int(input('Enter s2 marks'))
+s3=int(input('Enter s3 marks'))
+if s1>=35 and s2>=35 and s3>=35:
+    print('Pass')
+else:
+    print('Fail')
+
+
+OUTPUT:
+Enter marks obtained in 3 subjects
+Enter s1 marks45
+Enter s2 marks65
+Enter s3 marks35
+Pass
+
+Enter marks obtained in 3 subjects
+Enter s1 marks34
+Enter s2 marks45
+Enter s3 marks85
+Fail
